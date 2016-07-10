@@ -1,6 +1,9 @@
 import scala.io.StdIn.{readLine,readInt}
 import math.Pi
 
+/**
+** TODO: testing of results
+**/
 
 object DegreeConverter {
     def main(args: Array[String]): Unit = {
@@ -20,8 +23,7 @@ object DegreeConverter {
             case "r" => convert_radians(output, values)
             case "f" => convert_farenheit(output, values)
             case "c" => convert_celsius(output, values)
-            /**case "k" => convert_kelvin(output, values)
-            **/
+            case "k" => convert_kelvin(output, values)
             case _ => "input unit not implemented"
        } 
     }
